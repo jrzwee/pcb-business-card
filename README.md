@@ -10,4 +10,4 @@ This PCB should be manufactured in 0.6 mm or 0.8 mm.
 ![PCB Top](/renders/pbc_B.png)
 
 ## License
-
+[CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
