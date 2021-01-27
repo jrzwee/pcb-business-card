@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -181,7 +181,7 @@
 <wire x1="50" y1="0" x2="0" y2="0" width="3.5" layer="29"/>
 <text x="25" y="78.5" size="5.3" layer="29" font="vector" ratio="15" align="center">Andreas Zapfl</text>
 <wire x1="25" y1="93.5" x2="25" y2="-6.25" width="0.1524" layer="51" locked="yes"/>
-<text x="25" y="71.5" size="2.75" layer="25" font="vector" ratio="15" distance="75" align="top-center">Hardware Development 
+<text x="25" y="71.5" size="2.75" layer="25" font="vector" ratio="15" distance="75" align="top-center">Hardware Development
 Engineer
 </text>
 <rectangle x1="3" y1="3" x2="47" y2="13" layer="25"/>
@@ -190,7 +190,7 @@ Engineer
 <wire x1="55" y1="19.5" x2="-5.5" y2="19.5" width="0.254" layer="51"/>
 <wire x1="56" y1="44.5" x2="-4.5" y2="44.5" width="0.254" layer="51"/>
 <text x="11.5" y="44" size="6" layer="26" font="vector" ratio="15" rot="MR270" align="center">Andreas Zapfl</text>
-<text x="47" y="14.5" size="1.9304" layer="25" font="vector" ratio="15" rot="R180" align="center-left">V1.0</text>
+<text x="47" y="14.5" size="1.9304" layer="25" font="vector" ratio="15" rot="R180" align="center-left">V1.1</text>
 <text x="4" y="59.5" size="1.6764" layer="25" font="vector" ratio="15" distance="75" align="top-left"></text>
 <text x="12.5" y="59.5" size="2.1844" layer="25" font="vector" ratio="15" align="top-left">zapflandreas@gmail.com
 
