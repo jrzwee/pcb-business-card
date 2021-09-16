@@ -224,6 +224,15 @@ Engineer
 <wire x1="49.5" y1="10.5" x2="49.5" y2="46" width="0.2" layer="21"/>
 <wire x1="0" y1="0" x2="85.58" y2="53.98" width="0.2" layer="51"/>
 <wire x1="0" y1="54" x2="85.58" y2="0.02" width="0.2" layer="52"/>
+<hole x="80.5" y="49" drill="3.175"/>
+<wire x1="77.5" y1="6" x2="77.5" y2="5" width="0" layer="20" curve="180"/>
+<wire x1="77.5" y1="5" x2="82" y2="5" width="0" layer="20"/>
+<wire x1="82" y1="5" x2="82.5" y2="5.5" width="0" layer="20" curve="90"/>
+<wire x1="82.5" y1="5.5" x2="82.5" y2="10.5" width="0" layer="20"/>
+<wire x1="82.5" y1="10.5" x2="81.5" y2="10.5" width="0" layer="20" curve="180"/>
+<wire x1="81.5" y1="10.5" x2="81.5" y2="6" width="0" layer="20"/>
+<wire x1="81.5" y1="6" x2="77.5" y2="6" width="0" layer="20"/>
+<circle x="82" y="10.5" radius="0.5" width="0" layer="51"/>
 </plain>
 <libraries>
 <library name="zaan-Symbols" urn="urn:adsk.eagle:library:16759578">
@@ -10616,8 +10625,8 @@ Your Multi-CB Team
 <element name="U$4" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="GITHUB-JRZ-20" package3d_urn="urn:adsk.eagle:package:26343042/1" value="" x="16.98" y="17.02" smashed="yes" rot="MR90"/>
 <element name="U$3" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="MAIL-5" value="" x="5.48" y="18.395" smashed="yes"/>
 <element name="U$2" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="INSTA-5" value="" x="5.48" y="9.77" smashed="yes"/>
-<element name="U$5" library="EET-Symbols" package="STACKUP-2L" value="" x="60" y="62" smashed="yes"/>
-<element name="U$6" library="EET-Symbols" package="QR-SPACE" value="" x="68.5" y="62" smashed="yes"/>
+<element name="U$5" library="EET-Symbols" package="STACKUP-2L" value="" x="65.5" y="47.25" smashed="yes"/>
+<element name="U$6" library="EET-Symbols" package="QR-SPACE" value="" x="77" y="14" smashed="yes"/>
 </elements>
 <signals>
 <signal name="UGND">
