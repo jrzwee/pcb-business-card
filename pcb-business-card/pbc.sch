@@ -2328,6 +2328,197 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="EET-No-Category">
+<packages>
+<package name="B1.27" urn="urn:adsk.eagle:footprint:25891346/1">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<text x="0" y="1.5" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="B1.27-THT">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<text x="0" y="1.25" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<pad name="TP" x="0" y="0" drill="0.4" thermals="no"/>
+<smd name="TP1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
+</package>
+<package name="B0.635">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+<text x="0" y="1" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="B1.00" urn="urn:adsk.eagle:footprint:30841925/1">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="0" y="1.5" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="B1.00-THT">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<text x="0" y="1.25" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<pad name="TP" x="0" y="0" drill="0.4" thermals="no"/>
+<smd name="TP1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="B1.27" urn="urn:adsk.eagle:package:25891345/2" type="empty">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="B1.27"/>
+</packageinstances>
+</package3d>
+<package3d name="B1.00" urn="urn:adsk.eagle:package:30841924/2" type="empty">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="B1.00"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TP">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="-1.27" y="1.778" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="1.778" y="-0.762" size="1.27" layer="97" align="center-left">&gt;TP_SIGNAL_NAME</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TP" prefix="TP">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-B1.27" package="B1.27">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25891345/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH" package="B1.27-THT">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP TP1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-B0.635" package="B0.635">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-B1.00" package="B1.00">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30841924/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-1.00" package="B1.00-THT">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP TP1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="EET-Symbols">
+<packages>
+<package name="FIDUCIAL_1MM" urn="urn:adsk.eagle:footprint:25891414/1">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="FIDUCIAL_1MM" urn="urn:adsk.eagle:package:25891413/2" type="empty">
+<packageinstances>
+<packageinstance name="FIDUCIAL_1MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm</description>
+<gates>
+<gate name="FD" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25891413/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
@@ -2376,6 +2567,14 @@ DIN A4, landscape with location and doc. field</description>
 <part name="IC1" library="plxtech" library_urn="urn:adsk.eagle:library:328" deviceset="NET2272" device="REV1A-BCF" package3d_urn="urn:adsk.eagle:package:22607/1"/>
 <part name="U5" library="Sensor" library_urn="urn:adsk.eagle:library:11396555" deviceset="TMP117AIYBGR" device="" package3d_urn="urn:adsk.eagle:package:13238553/2"/>
 <part name="FRAME1" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" deviceset="A4L-LOC" device=""/>
+<part name="TP1" library="EET-No-Category" deviceset="TP" device="-B0.635"/>
+<part name="TP2" library="EET-No-Category" deviceset="TP" device="-B0.635"/>
+<part name="TP3" library="EET-No-Category" deviceset="TP" device="-B0.635"/>
+<part name="TP4" library="EET-No-Category" deviceset="TP" device="-B0.635"/>
+<part name="TP5" library="EET-No-Category" deviceset="TP" device="-B0.635"/>
+<part name="FD1" library="EET-Symbols" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:25891413/2"/>
+<part name="FD2" library="EET-Symbols" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:25891413/2"/>
+<part name="FD3" library="EET-Symbols" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:25891413/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2552,6 +2751,29 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="DRAWN_BY" x="223.52" y="20.32" size="2.54" layer="94"/>
 <attribute name="CHECKED_BY" x="226.06" y="15.24" size="2.54" layer="94"/>
 </instance>
+<instance part="TP1" gate="G$1" x="281.94" y="78.74" smashed="yes">
+<attribute name="NAME" x="280.67" y="80.518" size="1.778" layer="95" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" x="283.718" y="77.978" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="TP2" gate="G$1" x="292.1" y="81.28" smashed="yes">
+<attribute name="NAME" x="290.83" y="83.058" size="1.778" layer="95" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" x="293.878" y="80.518" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="302.26" y="78.74" smashed="yes">
+<attribute name="NAME" x="300.99" y="80.518" size="1.778" layer="95" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" x="304.038" y="77.978" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="317.5" y="78.74" smashed="yes">
+<attribute name="NAME" x="316.23" y="80.518" size="1.778" layer="95" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" x="319.278" y="77.978" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="330.2" y="76.2" smashed="yes">
+<attribute name="NAME" x="328.93" y="77.978" size="1.778" layer="95" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" x="331.978" y="75.438" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="FD1" gate="FD" x="274.32" y="60.96" smashed="yes"/>
+<instance part="FD2" gate="FD" x="287.02" y="55.88" smashed="yes"/>
+<instance part="FD3" gate="FD" x="302.26" y="53.34" smashed="yes"/>
 </instances>
 <busses>
 </busses>
